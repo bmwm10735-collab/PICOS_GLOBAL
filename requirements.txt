@@ -10,3 +10,7 @@ protobuf-decoder
 pytz
 aiohttp
 cfonts
+flask
+requests
+instagrapi
+gunicorn
