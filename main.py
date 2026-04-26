@@ -6192,7 +6192,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
                         # NEW PLAY COMMANDS
-                        if inPuTMsG.strip().startswith('/play '،'حركها'):
+                        if inPuTMsG.strip().startswith('/play ','حركها'):
                             print('Processing evo command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
