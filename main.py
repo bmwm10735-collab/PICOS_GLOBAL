@@ -5237,7 +5237,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 # ================= BUNDLE COMMAND START =================
    # ================= FINAL BUNDLE COMMAND (FAST) =================
-                        if inPuTMsG.strip().startswith('/bundle','ألبس'):
+                        if inPuTMsG.strip().startswith('/bundle'):
                             print('Processing bundle command')
     
                             parts = inPuTMsG.strip().split()
@@ -5290,7 +5290,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         # ===============================================================
 
                         # Invite Command - /inv (creates 5-player group and sends request)
-                        if inPuTMsG.strip().startswith('/inv ','بعثلو'):
+                        if inPuTMsG.strip().startswith('/inv '):
                             print('Processing invite command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
@@ -5645,7 +5645,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             await handle_badge_command('s5', inPuTMsG, uid, chat_id, key, iv, region, response.Data.chat_type)
                             
                             #ALL BADGE SPAM REQUEST 
-                        if inPuTMsG.strip().startswith('/spam','احويه'):
+                        if inPuTMsG.strip().startswith('/spam'):
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
                                 error_msg = "[B][C][FF0000]❌ Usage: /spam <uid>\nExample: /spam 123456789\n"
@@ -5730,7 +5730,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                                 
                                               
                                                                                           # FIXED JOIN COMMAND
-                        if inPuTMsG.startswith('/join','بوبيز'):
+                        if inPuTMsG.startswith('/join'):
                             # Process /join command in any chat type
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
@@ -5861,7 +5861,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 error_msg = f"[B][C][FF0000]❌ ERROR! No active lag attack to stop!\n"
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
-                        if inPuTMsG.startswith('/exit','اخرج'):
+                        if inPuTMsG.startswith('/exit'):
                             # Process /exit command in any chat type
                             initial_message = f"[B][C]{get_random_color()}\nLeaving current squad...\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
@@ -6192,7 +6192,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
                         # NEW PLAY COMMANDS
-                        if inPuTMsG.strip().startswith('/play ','حركها'):
+                        if inPuTMsG.strip().startswith('/play '):
                             print('Processing evo command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
