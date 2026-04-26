@@ -5730,7 +5730,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                                 
                                               
                                                                                           # FIXED JOIN COMMAND
-                        if inPuTMsG.startswith('/join'،'بوبيز'):
+                        if inPuTMsG.startswith('/join','بوبيز'):
                             # Process /join command in any chat type
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
