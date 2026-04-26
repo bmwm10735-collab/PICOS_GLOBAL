@@ -5317,7 +5317,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                     await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
 
-                        if inPuTMsG.startswith(("/6")):
+                        if inPuTMsG.startswith(("/6","hhhh")):
                             # Process /6 command - Create 4 player group
                             initial_message = f"[B][C]{get_random_color()}\n\nCreating 6-Player Group...\n\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
@@ -5397,7 +5397,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                     error_msg = f"[B][C][FF0000]❌ Failed: {str(e)}\n"
                                     await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
-                        if inPuTMsG.startswith(("/5")):
+                        if inPuTMsG.startswith(("/5","CH")):
                             # Process /5 command in any chat type
                             initial_message = f"[B][C]{get_random_color()}\n\nSending Group Invitation...\n\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
