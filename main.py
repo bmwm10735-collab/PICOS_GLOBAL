@@ -5290,7 +5290,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         # ===============================================================
 
                         # Invite Command - /inv (creates 5-player group and sends request)
-                        if inPuTMsG.strip().startswith('/inv ','ريڨلو'):
+                        if inPuTMsG.strip().startswith('/inv '):
                             print('Processing invite command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
