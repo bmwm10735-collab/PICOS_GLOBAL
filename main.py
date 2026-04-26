@@ -5861,7 +5861,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 error_msg = f"[B][C][FF0000]❌ ERROR! No active lag attack to stop!\n"
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
-                        if inPuTMsG.startswith('/exit'،'اخرج'):
+                        if inPuTMsG.startswith('/exit','اخرج'):
                             # Process /exit command in any chat type
                             initial_message = f"[B][C]{get_random_color()}\nLeaving current squad...\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
