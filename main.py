@@ -5237,7 +5237,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 # ================= BUNDLE COMMAND START =================
    # ================= FINAL BUNDLE COMMAND (FAST) =================
-                        if inPuTMsG.strip().startswith('/bundle'):
+                        if inPuTMsG.strip().startswith('/bundle','البس'):
                             print('Processing bundle command')
     
                             parts = inPuTMsG.strip().split()
@@ -5290,7 +5290,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         # ===============================================================
 
                         # Invite Command - /inv (creates 5-player group and sends request)
-                        if inPuTMsG.strip().startswith('/inv '):
+                        if inPuTMsG.strip().startswith('/inv ','ريڨلو'):
                             print('Processing invite command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
@@ -5730,7 +5730,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                                 
                                               
                                                                                           # FIXED JOIN COMMAND
-                        if inPuTMsG.startswith('/join'):
+                        if inPuTMsG.startswith('/join','ارواح'):
                             # Process /join command in any chat type
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
@@ -5761,7 +5761,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                         print(f"⚠️ Dual rings emote blocked by admin settings")
             
                                     # SUCCESS MESSAGE
-                                    success_message = f"[B][C][00FF00]✅ SUCCESS! Joined squad: {CodE}!\n🎭 Auto emotes sent to leader!\n🤖 Bot + You = 💕\n"
+                                    success_message = f"[B][C][00FF00]✅ SUCCESS! Joined squad: {CodE}!\n🎭 Auto emotes sent to leader!\n🤖 Bot + You = 9LAWE\n"
                                     await safe_send_message(response.Data.chat_type, success_message, uid, chat_id, key, iv)
             
                                 except Exception as e:
@@ -5861,7 +5861,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 error_msg = f"[B][C][FF0000]❌ ERROR! No active lag attack to stop!\n"
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
-                        if inPuTMsG.startswith('/exit'):
+                        if inPuTMsG.startswith('/exit','اخرج'):
                             # Process /exit command in any chat type
                             initial_message = f"[B][C]{get_random_color()}\nLeaving current squad...\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
