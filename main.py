@@ -3664,7 +3664,7 @@ Please check if the uid is correct.
 [FFFFFF]Likes Before : [00FF00]{likes_before}  
 [FFFFFF]Likes After : [00FF00]{likes_after}  
 [C][B][11EAFD]‎━━━━━━━━━━━━
-[C][B][FFB300]Subscribe: [FFFFFF]DEV YT   GAMER [00FF00]!!
+[C][B][FFB300]Follow me on Telegram : [FFFFFF]BOTㅤƤἿƇ❀ὋṨㅤ⸙ [00FF00]!!
 """
         elif status == 2 or likes_before == likes_after:
             # 🚫 Already claimed / Maxed
@@ -5237,7 +5237,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 # ================= BUNDLE COMMAND START =================
    # ================= FINAL BUNDLE COMMAND (FAST) =================
-                        if inPuTMsG.strip().startswith('/bundle','البس'):
+                        if inPuTMsG.strip().startswith('/bundle'):
                             print('Processing bundle command')
     
                             parts = inPuTMsG.strip().split()
@@ -5730,7 +5730,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                                 
                                               
                                                                                           # FIXED JOIN COMMAND
-                        if inPuTMsG.startswith('/join','ارواح'):
+                        if inPuTMsG.startswith('/join'):
                             # Process /join command in any chat type
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
@@ -5861,7 +5861,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 error_msg = f"[B][C][FF0000]❌ ERROR! No active lag attack to stop!\n"
                                 await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
-                        if inPuTMsG.startswith('/exit','اخرج'):
+                        if inPuTMsG.startswith('/exit'):
                             # Process /exit command in any chat type
                             initial_message = f"[B][C]{get_random_color()}\nLeaving current squad...\n"
                             await safe_send_message(response.Data.chat_type, initial_message, uid, chat_id, key, iv)
