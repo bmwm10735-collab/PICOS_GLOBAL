@@ -5422,7 +5422,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             success_message = f"[B][C][00FF00]✅ SUCCESS! Group invitation sent successfully to {uid}!\n"
                             await safe_send_message(response.Data.chat_type, success_message, uid, chat_id, key, iv)
 
-                        if inPuTMsG.strip() == "/admin","عمك":
+                        if inPuTMsG.strip() == "/admin":
                             # Process /admin command in any chat type
                             admin_message = """
 [B][C][00FF00]╔══════════╗
