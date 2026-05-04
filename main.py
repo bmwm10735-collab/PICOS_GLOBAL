@@ -5799,7 +5799,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                         await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
                 
                 
-                        if inPuTMsG.strip().startswith('/ghost'):
+                        if inPuTMsG.strip().startswith('/lhvohd'):
                             # Process /ghost command in any chat type
                             parts = inPuTMsG.strip().split()
                             if len(parts) < 2:
@@ -5826,7 +5826,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                     await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
 
                         # NEW LAG COMMAND
-                        if inPuTMsG.strip().startswith('/lag '):
+                        if inPuTMsG.strip().startswith('/jciock '):
                             print('Processing lag command in any chat type')
                             
                             parts = inPuTMsG.strip().split()
